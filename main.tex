@@ -1,0 +1,100 @@
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+\usepackage{graphics,color} % for pdf, bitmapped graphics files
+\usepackage{subfigure}
+\usepackage{rotating}
+\usepackage{algorithmic}
+\usepackage{comment}
+\usepackage{algorithm,amssymb,url}
+\usepackage{epsfig}
+\usepackage[cmex10]{amsmath}
+\usepackage{amsthm}
+\usepackage{bm}
+\usepackage{cite}
+\usepackage{textcomp}
+
+\newboolean{showcomments}
+\setboolean{showcomments}{true}
+
+\ifthenelse{\boolean{showcomments}}
+{ \newcommand{\mynote}[2]{
+    \fbox{\bfseries\sffamily\scriptsize#1}
+    {\small$\blacktriangleright$\textsf{\emph{#2}}$\blacktriangleleft$}}}
+{\newcommand{\mynote}[2]{}}
+
+
+\newcommand{\cdu}[1]{\mynote{Corentin}{#1}}
+\newcommand{\todo}[1]{\mynote{TODO}{#1}}
+
+\newcommand {\0} {\mathbf 0}
+\newcommand {\1} {\mathbf 1}
+\newcommand {\bt} {{\mathbf t}_c}
+\newcommand {\bb} {{\mathbf b}}
+\newcommand {\bx} {\mathbf x}
+\newcommand {\eeq} {\end{equation}}
+\newcommand {\barr} {\begin{array}}
+\newcommand {\earr} {\end{array}}
+\newcommand {\bear} {\begin{eqnarray}}
+\newcommand {\wU} {\widehat U}
+\newcommand {\namep} {Cloud4IoT\relax}
+%\thispagestyle{plain}
+
+\begin{document}
+
+\title{Green IoT for developing countries}
+
+
+\author{
+Authors\\
+FBK Create-Net, via alla Cascata 56/D, 38123 Trento, Italy.\\
+\texttt{<xxx>@fbk.eu}
+}
+
+\maketitle
+
+\begin{abstract}
+- high development of IoT. IoT is also an enabler technology for IA.
+- low development of IoT in third world countries
+- high rate of changes in agriculture, with climate change
+- IoT is needed to address those chalenges
+We show how IoT can meet African challenges, with low cost and low energy consumption hardware.
+We demonstrate the use of this technology in a use case where IoT is use to monitor water in Senegal.
+
+\end{abstract}
+
+\begin{IEEEkeywords}
+IoT, Energy management, Cloud computing 
+\end{IEEEkeywords}
+
+\section{Introduction}
+\label{intro}
+
+In this article, we present in Section \ref{iot} the new technologies and trends contributing in making IoT available at a much lower cost for worldwide adoption.
+Then, we present in Section \ref{platform} the EU H2020 WAZIUP IoT platform targeting deployment of low-cost IoT and Big Data in developing countries, addressing the aforementioned major issues.
+Section \ref{conclu} concludes the article.
+
+\section{State of the Art}
+\label{sota}
+
+\section{Green IoT hardware}
+\label{iot}
+
+
+\section{A Cloud platform to support green IoT}
+\label{platform}
+
+\section{Use case: water saving in Senegal}
+\label{usecase}
+
+\section{Conclusion}
+\label{conclu}
+
+
+\section*{Acknowledgment}
+This research received funding from the European Union's H2020 Research and Innovation Action under grant agreement n. 688088 (project AGILE) and grant agreement n. 687607 (project WAZIUP).
+
+\bibliographystyle{IEEEtran}
+\bibliography{central-bibliography/bibliography}
+
+\end{document}
+
+

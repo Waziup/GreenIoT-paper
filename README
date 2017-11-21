@@ -1,0 +1,8 @@
+To compile the paper, first install texlive and texline-fonts-extra:
+
+$ sudo apt-get install texlive
+$ sudo apt-get install texlive-fonts-extra
+
+then make:
+
+$ make
