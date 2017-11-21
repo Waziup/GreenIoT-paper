@@ -1,0 +1,3 @@
+[submodule "central-bibliography"]
+	path = central-bibliography
+	url = git@github.com:Waziup/central-bibliography.git
