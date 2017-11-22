@@ -14,5 +14,6 @@ git clone git@github.com:Waziup/GreenIoT-paper.git
 Then compile it:
 
 ```
+$ cd GreenIoT-paper
 $ make
 ```
