@@ -8,7 +8,7 @@ $ sudo apt-get install texlive-fonts-extra
 Clone the paper:
 
 ```
-git clone git@github.com:Waziup/GreenIoT-paper.git
+git clone --recursive git@github.com:Waziup/GreenIoT-paper.git
 ```
 
 Then compile it:
